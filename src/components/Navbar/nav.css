@@ -1,0 +1,88 @@
+/* Navbar styling */
+#navbar {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(78, 12, 170, 1) 0%,
+        rgba(64, 30, 185, 1) 27%,
+        rgba(55, 42, 195, 1) 45%,
+        rgba(43, 58, 208, 1) 64%,
+        rgba(22, 87, 232, 1) 81%,
+        rgba(0, 116, 255, 1) 93%
+    );
+    padding: 10px 15px;
+    z-index: 1000;
+    
+}
+
+#navbar  {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+}
+
+#navbar  {
+    color: #ffffff; 
+    font-style: normal;
+}
+
+
+/* Collapsible navbar section */
+#navbarResponsive {
+    margin-left: 350px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+#navbarResponsive .nav-link {
+    color: rgb(255, 255, 255);
+    transition: color 0.3s;
+}
+
+#navbarResponsive .nav-link:hover {
+    color: #0f0220; /* Add hover effect */
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    /* Adjust navbar margin */
+    #name {
+        margin-left: 10px;
+    }
+
+    #navbarResponsive {
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+    #navbar .navbar-brand h2 {
+        font-size: 1.2rem;
+    }
+
+    #navbarResponsive {
+        font-size: medium;
+    }
+
+}
+
+@media (max-width: 576px) {
+    /* Stack items for small screens */
+    #navbar {
+        text-align: center;
+    }
+
+    #name {
+        margin: 0 auto;
+    }
+
+   
+}
