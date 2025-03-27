@@ -13,9 +13,8 @@ const router = createBrowserRouter(
     <Route path='/about' element={<About />} ></Route>
     <Route path='/service' element={<OurService />} ></Route>
     <Route path='/contact' element={<Contact />} ></Route>
-    <Route path='/login' element={<Login/>} ></Route>
+    <Route path='/login' element={<Login/>} ></Route> 
     <Route path='/signup' element={<Signup />} ></Route>
-    {/* <Route path='*' element={""} ></Route>  // for 404 components */}
     
     </>
   )
